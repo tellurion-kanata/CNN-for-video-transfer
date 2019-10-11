@@ -19,12 +19,12 @@ Videos are majorly from [videvo](https://www.videvo.net/).
 
 If you want to train a new model, use the following command
 ```bash
-python main.py --name [model_name] --transformer [skip/simple/skip-simple] --dataroot [training_dataset_filename] --style_image [filename]
+python main.py --name [model_name] --transformer [skip/simple/skip-simple] --dataroot [path_to_training_dataset] --style_image [filename]
 ```
 
 If you wanto to test a model, use the following command
 ```bash
-python main.py --name [model_name] --transformer [skip/simple/skip-simple] --dataroot [test_dataset_filename] --load_epoch [epoch_name] --eval
+python main.py --name [model_name] --transformer [skip/simple/skip-simple] --dataroot [path_to_test_dataset] --load_epoch [epoch_name] --eval
 ```
 The defualt transformer and epoch_name are 'skip-simple' and 'latest' respectively. Details about training and test settings can be found in options.
 
