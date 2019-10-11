@@ -6,7 +6,7 @@ def get_options():
     parser.add_argument('--dataroot', required=True, help='Training dataset')
     parser.add_argument('--model', default='videonet', help='Network model')
     parser.add_argument('--loss', default='feature', help='Type of loss function')
-    parser.add_argument('--transformer', default='skip', help='Transformer network')
+    parser.add_argument('--transformer', default='skip-simple', help='Transformer network')
     parser.add_argument('--style_image', default='style.jpg', help='Reference image used in training')
     parser.add_argument('--lambda_content', default=1e5, type=float)
     parser.add_argument('--lambda_style', default=1e11, type=float)
