@@ -1,13 +1,8 @@
-import torch
-import torch.nn as nn
 import torch.optim as optim
-from torch.autograd import Variable
 from dataset import CustomDataLoader
 
 import os
-import numpy as np
 import time
-from glob import glob
 from utils import *
 
 class BaseModel():
