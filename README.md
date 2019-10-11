@@ -14,7 +14,7 @@ Our network is trained with loss function proposed in ReCoNet.
 We have made some improvements compared with the architecture introduced in our paper, but you can still try to reproduce our result by selecting skip model to train or to test.
 
 Our dataset can be downloaded at [mega](https://mega.nz/#!PsomzYgb!THyq95ShQT0hp_OlST3ToKu8plT3I33Zl51k-JQ0Et0) and has been updated to 640x360. 
-Now we use PWC-Net to compute the ground-truth optical flow.
+Now we use PWC-Net to compute the ground-truth optical flow and code in [Artistic-videos](https://github.com/manuelruder/artistic-videos) to compute the occlusion mask.
 Videos are majorly from [videvo](https://www.videvo.net/).
 
 If you want to train a new model, use the following command
@@ -50,7 +50,7 @@ A checkpoint file should be orgnized as follows if you want to load a pre-traine
 │  │  ├─*.pth
 
 
-Reference:  
+Code Reference:  
 [1][ReCoNet: Real-time Coherent Video Style Transfer Network](https://arxiv.org/pdf/1807.01197.pdf)  
 [2][Optical Flow Prediction with Tensorflow](https://github.com/philferriere/tfoptflow)  
 [3][CycleGAN and pix2pix in PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)  
