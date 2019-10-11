@@ -29,7 +29,7 @@ python main.py --name [model_name] --transformer [skip/simple/skip-simple] --dat
 The defualt transformer and epoch_name are 'skip-simple' and 'latest' respectively. Details about training and test settings can be found in options.
 
 
-The training and evaluation dataset should be organized as:  
+The training and evaluation dataset folder should be organized as:  
 ├─filename  
 │  ├─0  
 │  │  ├─frame  
@@ -38,14 +38,14 @@ The training and evaluation dataset should be organized as:
 │  ├─1  
 │  ...  
   
-The test dataset should be organized as:  
+The test dataset folder should be organized as:  
 ├─filename  
 │  ├─0  
 │  │  └─frame   
 │  ├─1  
 │  ...
 
-A checkpoint file should be orgnized as follows if you want to load a pre-trained model.  
+A checkpoint folder should be orgnized as follows if you want to load a pre-trained model.  
 ├─checkpoints  
 │  ├─[model_name]  
 │  │  ├─[epoch_name]_transformer_params.pth
