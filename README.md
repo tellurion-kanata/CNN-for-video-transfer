@@ -54,5 +54,5 @@ Reference:
 [1][ReCoNet: Real-time Coherent Video Style Transfer Network](https://arxiv.org/pdf/1807.01197.pdf)  
 [2][Optical Flow Prediction with Tensorflow](https://github.com/philferriere/tfoptflow)  
 [3][CycleGAN and pix2pix in PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)  
-[4][Artistic-videos](https://github.com/manuelruder/artistic-videos)
+[4][Artistic-videos](https://github.com/manuelruder/artistic-videos)  
 [5][fast_neural_style](https://github.com/pytorch/examples/tree/master/fast_neural_style)
