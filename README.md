@@ -24,9 +24,10 @@ python main.py --name [model_name] --transformer [skip/simple/skip-simple] --dat
 
 If you wanto to test a model, use the following command
 ```bash
-python main.py --name [model_name] --transformer [skip/simple/skip-simple] --dataroot [test_dataset_filename] --eval
+python main.py --name [model_name] --transformer [skip/simple/skip-simple] --dataroot [test_dataset_filename] --load_epoch [epoch_name] --eval
 ```
-The defualt transformer is skip-simple. Details about training and test settings can be found in options.
+The defualt transformer and epoch_name are 'skip-simple' and 'latest' respectively. Details about training and test settings can be found in options.
+
 
 The training and evaluation dataset should be organized as:  
 ├─filename  
@@ -47,7 +48,7 @@ The test dataset should be organized as:
 A checkpoint file should be orgnized as follows if you want to load a pre-trained model.  
 ├─checkpoints  
 │  ├─[model_name]  
-│  │  ├─*.pth
+│  │  ├─[epoch_name]_transformer_params.pth
 
 
 Code Reference:  
