@@ -13,7 +13,7 @@ You can also use it to generate videos in other styles like:
 Our network is trained with loss function proposed in ReCoNet.
 We have made some improvements compared with the architecture introduced in our paper, but you can still try to reproduce our result by selecting skip model to train or to test.
 
-Our dataset can be downloaded at [mega](https://mega.nz/#!PsomzYgb!THyq95ShQT0hp_OlST3ToKu8plT3I33Zl51k-JQ0Et0) and has been updated to 640x360. 
+Our dataset can be downloaded from [mega](https://mega.nz/#!PsomzYgb!THyq95ShQT0hp_OlST3ToKu8plT3I33Zl51k-JQ0Et0) and has been updated to 640x360. 
 Now we use PWC-Net to compute the ground-truth optical flow and code in [Artistic-videos](https://github.com/manuelruder/artistic-videos) to compute the occlusion mask.
 Videos are majorly from [videvo](https://www.videvo.net/).
 
