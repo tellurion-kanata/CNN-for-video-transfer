@@ -1,6 +1,6 @@
 import torch
 
-# Code from https://github.com/pytorch/examples/blob/master/fast_neural_style/neural_style/vgg.py 
+# Code from https://github.com/pytorch/examples/blob/master/fast_neural_style/neural_style/
 class ConvLayer(torch.nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size, stride):
         super(ConvLayer, self).__init__()
