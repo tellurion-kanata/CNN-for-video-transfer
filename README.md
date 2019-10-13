@@ -1,4 +1,4 @@
-# Neural-networks-for-video-transfer
+# CNN-for-video-transfer
 A PyTorch implementation of network in our paper Pencil Drawing Video Rendering Using Convolutional Networks.
 
 Pencil drawing video results:
@@ -13,7 +13,7 @@ You can also use it to generate videos in other styles like:
 Our network is trained with loss function proposed in ReCoNet.
 We have made some improvements compared with the architecture introduced in our paper, but you can still try to reproduce our result by selecting skip model to train or to test.
 
-Our dataset can be downloaded from [mega](https://mega.nz/#!PsomzYgb!THyq95ShQT0hp_OlST3ToKu8plT3I33Zl51k-JQ0Et0) and has been updated to 640x360. 
+Our dataset can be downloaded from [mega](https://mega.nz/#!PsomzYgb!THyq95ShQT0hp_OlST3ToKu8plT3I33Zl51k-JQ0Et0) and has been updated to 640x360. **Please do not use this dataset for any commercial purposes.**
 Now we use PWC-Net to compute the ground-truth optical flow and code in [Artistic-videos](https://github.com/manuelruder/artistic-videos) to compute the occlusion mask.
 Videos are majorly from [videvo](https://www.videvo.net/).
 
@@ -49,6 +49,9 @@ A checkpoint folder should be orgnized as follows if you want to load a pre-trai
 ├─checkpoints  
 │  ├─[model_name]  
 │  │  ├─[epoch_name]_transformer_params.pth
+
+Be free to contact me if you have any trouble using this code. My gmail is tellurion.kanata@gmail.com, or
+QQ:249908966
 
 
 Code Reference:  
