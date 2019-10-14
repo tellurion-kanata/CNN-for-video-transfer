@@ -6,6 +6,7 @@ import numpy as np
 
 TAG_CHAR = np.array([202021.25], np.float32)
 
+# Code from https://github.com/NVIDIA/flownet2-pytorch/blob/master/utils/flow_utils.py
 def readFlow(fn):
     """ Read .flo file in Middlebury format"""
     # Code adapted from:
@@ -60,6 +61,7 @@ def writeFlow(filename, uv, v=None):
     f.close()
 
 
+# Code from https://github.com/NVlabs/PWC-Net/tree/67605884f5f635e29190228e0120de08689c4375, slightly changed.
 def warp(x, flow):
     """
     x: [B, C, H, W] (im2)
