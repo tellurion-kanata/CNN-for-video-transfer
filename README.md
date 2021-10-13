@@ -51,7 +51,6 @@ A checkpoint folder should be orgnized as follows if you want to load a pre-trai
 │  │  ├─[epoch_name]_transformer_params.pth
 
 Be free to contact me if you have any trouble using this code. My gmail is tellurion.kanata@gmail.com, or
-QQ:249908966
 
 
 Code Reference:  
